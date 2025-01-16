@@ -77,6 +77,10 @@
         <div class="chart-container">
             <canvas id="resultsChart"></canvas>
         </div>
+
+        <div class="chart-container">
+            <canvas id="subjectChart"></canvas>
+        </div>
     </div>
 
     <script>
@@ -84,6 +88,8 @@
         const dates = {{ dates|tojson|safe }};
         const correctCounts = {{ correct_counts|tojson|safe }};
         const incorrectCounts = {{ incorrect_counts|tojson|safe }};
+        const subjects = {{ subjects|tojson|safe }};
+        const subjectData = {{ subject_data|tojson|safe }};
 
         // Calculate summary statistics
         const totalCorrect = correctCounts.reduce((a, b) => a + b, 0);
@@ -97,7 +103,7 @@
         document.getElementById('totalIncorrect').textContent = totalIncorrect;
         document.getElementById('successRate').textContent = `${successRate}%`;
 
-        // Create the chart
+        // Create the bar chart
         const ctx = document.getElementById('resultsChart').getContext('2d');
         new Chart(ctx, {
             type: 'bar',
@@ -162,6 +168,56 @@
                 }
             }
         });
+
+        // Create the line chart for percentage correct by subject
+        const subjectCtx = document.getElementById('subjectChart').getContext('2d');
+        const subjectDatasets = subjects.map(subject => ({
+            label: subject,
+            data: subjectData[subject],
+            fill: false,
+            borderColor: getRandomColor(),
+            tension: 0.1
+        }));
+
+        new Chart(subjectCtx, {
+            type: 'line',
+            data: {
+                labels: dates,
+                datasets: subjectDatasets
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        ticks: {
+                            stepSize: 10
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: 'Percentage Correct by Subject per Day'
+                    }
+                }
+            }
+        });
+
+        // Function to generate random colors for the line chart
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
     </script>
 </body>
 </html>

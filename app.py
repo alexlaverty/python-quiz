@@ -97,14 +97,11 @@ def completed():
     session.clear()
     return render_template('completed.html')
 
-# Add this new route to your Flask application
 @app.route('/dashboard')
 def dashboard():
-
     # Read the CSV file
     df = pd.read_csv('user_answers.csv')
-    print("df")
-    print(df)
+
     # Convert the 'Date' column to datetime
     df['Date'] = pd.to_datetime(df['Date'])
     
@@ -116,18 +113,49 @@ def dashboard():
     
     # Group by date and count correct/incorrect answers
     daily_results = df.groupby(['Date', 'Correct?']).size().unstack(fill_value=0)
-    print("daily_results")
-    print(daily_results)
 
-    # Prepare data for the chart
+    # Prepare data for the bar chart
     dates = daily_results.index.tolist()
     correct_counts = daily_results[True].tolist() if True in daily_results.columns else [0] * len(dates)
     incorrect_counts = daily_results[False].tolist() if False in daily_results.columns else [0] * len(dates)
-    
+
+    # Debug print statements
+    print("Daily Results:")
+    print(daily_results)
+    print("Dates:", dates)
+    print("Correct Counts:", correct_counts)
+    print("Incorrect Counts:", incorrect_counts)
+
+    # Calculate percentage correct by subject per day
+    subject_results = df.groupby(['Date', 'Subject', 'Correct?']).size().unstack(fill_value=0)
+    print("Subject Results:")
+    print(subject_results)
+
+    # Calculate percentage correct by subject per day
+    subject_percentage = df.pivot_table(index='Date', columns='Subject', values='Correct?', aggfunc=lambda x: (x[x==True].count() / len(x)) * 100)
+    subject_percentage = subject_percentage.fillna(0)  # replace NaN with 0
+    print("Subject Percentage:")
+    print(subject_percentage)
+
+    # Fix the structure of subject_percentage DataFrame
+    subject_percentage = subject_percentage.reset_index(level=0, drop=True)
+    print("Fixed Subject Percentage:")
+    print(subject_percentage)
+
+    subjects = subject_percentage.columns.tolist()
+    subject_data = {subject: subject_percentage[subject].tolist() for subject in subjects}
+
+    # Debug print statements
+    print("Subjects:", subjects)
+    print("Subject Data:", subject_data)
+
     return render_template('dashboard.html', 
                             dates=dates,
                             correct_counts=correct_counts,
-                            incorrect_counts=incorrect_counts)
+                            incorrect_counts=incorrect_counts,
+                            subjects=subjects,
+                            subject_data=subject_data)
+
 
     
 if __name__ == '__main__':

@@ -17,10 +17,11 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border: 2px solid #00adef; /* Added border style and width */
         }
 
         .question {
-            font-size: 1.2em;
+            font-size: 1.4em;
             color: #333;
             margin-bottom: 20px;
         }
@@ -52,14 +53,15 @@
     </style>
 </head>
 <body>
-    <div class="container">
     <div class="progress">
         Question {{ question_number }} of {{ total_questions }}
     </div>
     <div class="topic-info">
-        <p><strong>Subject:</strong> {{ question.subject }}</p>
+        <!-- <p><strong>Subject:</strong> {{ question.subject }}</p> -->
         <p><strong>Topic:</strong> {{ question.syllabus_topic }}</p>
     </div>
+    <div class="container">
+
    
     <div class="question">
         <h2>{{ question.question }}</h2>

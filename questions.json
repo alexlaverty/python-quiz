@@ -633,6 +633,501 @@
             "explanation": "63 ÷ 9 = 7.",
             "syllabus_topic": "Mathematics - Number and Algebra - Division",
             "subject": "Mathematics"
+        },
+        {
+            "question": "Which word correctly completes this sentence? 'The children _____ playing in the park.'",
+            "options": ["is", "are", "was", "be"],
+            "correct_answer": "are",
+            "explanation": "When talking about multiple people (children), we use 'are' as the verb. 'The children are playing' is correct because 'children' is plural.",
+            "syllabus_topic": "English - Grammar - Subject-Verb Agreement",
+            "subject": "English"
+        },
+        {
+            "question": "What is the sum of 45 + 28?",
+            "options": ["63", "73", "62", "72"],
+            "correct_answer": "73",
+            "explanation": "To add 45 + 28: First, add the ones (5 + 8 = 13), write down 3 and carry 1. Then add the tens (4 + 2 + 1 = 7). So 45 + 28 = 73.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Addition with Two-Digit Numbers",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these words is spelled correctly?",
+            "options": ["becase", "becouse", "because", "becuase"],
+            "correct_answer": "because",
+            "explanation": "The correct spelling is 'because'. It's a common word that follows the rule: be- (prefix) + cause.",
+            "syllabus_topic": "English - Spelling - Common Words",
+            "subject": "English"
+        },
+        {
+            "question": "What is 9 × 7?",
+            "options": ["63", "72", "81", "49"],
+            "correct_answer": "63",
+            "explanation": "To find 9 × 7, use your times tables or repeated addition: 9 + 9 + 9 + 9 + 9 + 9 + 9 = 63.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Multiplication",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these is a solid object?",
+            "options": ["Water", "Air", "Ice", "Steam"],
+            "correct_answer": "Ice",
+            "explanation": "Ice is the solid form of water. Solids have a fixed shape, unlike liquids or gases.",
+            "syllabus_topic": "Science - Properties of Materials - States of Matter",
+            "subject": "Science"
+        },
+        {
+            "question": "What punctuation mark is used to show excitement or strong feeling?",
+            "options": ["Period", "Exclamation mark", "Question mark", "Comma"],
+            "correct_answer": "Exclamation mark",
+            "explanation": "An exclamation mark (!) is used to show excitement, strong feelings, or emphasis, such as in 'Wow!' or 'Great job!'",
+            "syllabus_topic": "English - Punctuation - Exclamation Marks",
+            "subject": "English"
+        },
+        {
+            "question": "What is the perimeter of a rectangle with a length of 6 cm and a width of 4 cm?",
+            "options": ["20 cm", "24 cm", "18 cm", "22 cm"],
+            "correct_answer": "20 cm",
+            "explanation": "The perimeter of a rectangle is calculated by adding all sides: 6 + 6 + 4 + 4 = 20 cm.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Perimeter",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What do plants need to make their own food?",
+            "options": ["Sunlight, water, and soil", "Sunlight, water, and air", "Water, air, and nutrients", "Sunlight, air, and animals"],
+            "correct_answer": "Sunlight, water, and air",
+            "explanation": "Plants use sunlight, water, and carbon dioxide from the air to make food through photosynthesis.",
+            "syllabus_topic": "Science - Living Things - Plant Needs",
+            "subject": "Science"
+        },
+        {
+            "question": "Which word is an adjective in this sentence: 'The fluffy cat slept on the warm mat.'",
+            "options": ["fluffy", "cat", "slept", "mat"],
+            "correct_answer": "fluffy",
+            "explanation": "An adjective describes a noun. In this sentence, 'fluffy' describes the cat.",
+            "syllabus_topic": "English - Grammar - Adjectives",
+            "subject": "English"
+        },
+        {
+            "question": "How many sides does a hexagon have?",
+            "options": ["5", "6", "7", "8"],
+            "correct_answer": "6",
+            "explanation": "A hexagon is a polygon with 6 sides. The prefix 'hex-' means six.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - 2D Shapes",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "How many months are there in a year?",
+            "options": ["10", "11", "12", "13"],
+            "correct_answer": "12",
+            "explanation": "A year has 12 months: January, February, March, April, May, June, July, August, September, October, November, and December.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Time",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "How many days are there in a week?",
+            "options": ["5", "6", "7", "8"],
+            "correct_answer": "7",
+            "explanation": "A week has 7 days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Time",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "How many minutes are there in an hour?",
+            "options": ["50", "60", "70", "80"],
+            "correct_answer": "60",
+            "explanation": "An hour is made up of 60 minutes, which can be divided into smaller units like seconds.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Time",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "How many seconds are there in a minute?",
+            "options": ["30", "50", "60", "100"],
+            "correct_answer": "60",
+            "explanation": "A minute is made up of 60 seconds, which is a standard unit of time measurement.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Time",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "How many hours are there in a day?",
+            "options": ["12", "24", "36", "48"],
+            "correct_answer": "24",
+            "explanation": "A day is divided into 24 hours, with 12 hours for daytime and 12 hours for nighttime.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Time",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "How many days are there in a year (not including a leap year)?",
+            "options": ["360", "365", "366", "370"],
+            "correct_answer": "365",
+            "explanation": "A regular year has 365 days, which includes 12 months. A leap year has one extra day, making it 366.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Time",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "How many weeks are there in a year (approximately)?",
+            "options": ["48", "50", "52", "54"],
+            "correct_answer": "52",
+            "explanation": "A year has approximately 52 weeks because 365 days divided by 7 days per week equals about 52.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Time",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "How many decades are there in 100 years?",
+            "options": ["5", "10", "20", "100"],
+            "correct_answer": "10",
+            "explanation": "A decade is 10 years, so there are 10 decades in 100 years (100 ÷ 10 = 10).",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Time",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "How many seasons are there in a year in Australia?",
+            "options": ["2", "3", "4", "5"],
+            "correct_answer": "4",
+            "explanation": "Australia experiences 4 seasons: Summer, Autumn, Winter, and Spring.",
+            "syllabus_topic": "Science - Earth and Space Sciences - Seasons",
+            "subject": "Science"
+        },
+        {
+            "question": "How many hours are there in two days?",
+            "options": ["24", "36", "48", "72"],
+            "correct_answer": "48",
+            "explanation": "Each day has 24 hours, so two days have 24 × 2 = 48 hours.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Time",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is the name of the planet we live on?",
+            "options": ["Mars", "Earth", "Venus", "Jupiter"],
+            "correct_answer": "Earth",
+            "explanation": "We live on the planet Earth, which is the third planet from the Sun.",
+            "syllabus_topic": "Science - Earth and Space Sciences - Our Solar System",
+            "subject": "Science"
+        },
+        {
+            "question": "What is the largest planet in our solar system?",
+            "options": ["Earth", "Jupiter", "Mars", "Saturn"],
+            "correct_answer": "Jupiter",
+            "explanation": "Jupiter is the largest planet in our solar system. It is a gas giant with a massive size compared to other planets.",
+            "syllabus_topic": "Science - Earth and Space Sciences - Our Solar System",
+            "subject": "Science"
+        },
+        {
+            "question": "Which planet is closest to the Sun?",
+            "options": ["Mercury", "Venus", "Earth", "Mars"],
+            "correct_answer": "Mercury",
+            "explanation": "Mercury is the closest planet to the Sun. It is very hot during the day and very cold at night.",
+            "syllabus_topic": "Science - Earth and Space Sciences - Planets",
+            "subject": "Science"
+        },
+        {
+            "question": "What is the name of the star at the center of our solar system?",
+            "options": ["Moon", "Sun", "Sirius", "Mars"],
+            "correct_answer": "Sun",
+            "explanation": "The Sun is the star at the center of our solar system. It provides light and heat to Earth.",
+            "syllabus_topic": "Science - Earth and Space Sciences - The Sun",
+            "subject": "Science"
+        },
+        {
+            "question": "Which planet is known as the 'Red Planet'?",
+            "options": ["Earth", "Venus", "Mars", "Saturn"],
+            "correct_answer": "Mars",
+            "explanation": "Mars is called the 'Red Planet' because of its reddish color, caused by iron oxide (rust) on its surface.",
+            "syllabus_topic": "Science - Earth and Space Sciences - Planets",
+            "subject": "Science"
+        },
+        {
+            "question": "What do we call a group of stars that form a pattern in the sky?",
+            "options": ["Galaxy", "Constellation", "Planet", "Comet"],
+            "correct_answer": "Constellation",
+            "explanation": "A constellation is a group of stars that form a recognizable pattern in the night sky, like the Southern Cross.",
+            "syllabus_topic": "Science - Earth and Space Sciences - Stars",
+            "subject": "Science"
+        },
+        {
+            "question": "What is the name of Earth's natural satellite?",
+            "options": ["Moon", "Sun", "Mars", "Venus"],
+            "correct_answer": "Moon",
+            "explanation": "Earth's natural satellite is the Moon. It orbits Earth and reflects sunlight, making it visible at night.",
+            "syllabus_topic": "Science - Earth and Space Sciences - The Moon",
+            "subject": "Science"
+        },
+        {
+            "question": "How many planets are there in our solar system?",
+            "options": ["7", "8", "9", "10"],
+            "correct_answer": "8",
+            "explanation": "There are 8 planets in our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",
+            "syllabus_topic": "Science - Earth and Space Sciences - Our Solar System",
+            "subject": "Science"
+        },
+        {
+            "question": "Which planet has rings made of ice and rock?",
+            "options": ["Saturn", "Jupiter", "Uranus", "Neptune"],
+            "correct_answer": "Saturn",
+            "explanation": "Saturn is famous for its rings, which are made of ice and rock particles.",
+            "syllabus_topic": "Science - Earth and Space Sciences - Planets",
+            "subject": "Science"
+        },
+        {
+            "question": "What is the name of the galaxy that our solar system is in?",
+            "options": ["Andromeda", "Milky Way", "Black Hole", "Orion"],
+            "correct_answer": "Milky Way",
+            "explanation": "Our solar system is located in the Milky Way galaxy, which is a spiral galaxy containing billions of stars.",
+            "syllabus_topic": "Science - Earth and Space Sciences - Galaxies",
+            "subject": "Science"
+        },
+        {
+            "question": "What is 47 rounded to the nearest ten?",
+            "options": ["40", "45", "50", "60"],
+            "correct_answer": "50",
+            "explanation": "When rounding to the nearest ten, look at the ones place. Since 7 is 5 or more, round up to 50.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Rounding Numbers",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is 83 rounded to the nearest ten?",
+            "options": ["80", "85", "90", "70"],
+            "correct_answer": "80",
+            "explanation": "When rounding to the nearest ten, look at the ones place. Since 3 is less than 5, round down to 80.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Rounding Numbers",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is 126 rounded to the nearest hundred?",
+            "options": ["100", "120", "130", "200"],
+            "correct_answer": "100",
+            "explanation": "When rounding to the nearest hundred, look at the tens place. Since 26 is less than 50, round down to 100.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Rounding Numbers",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is 175 rounded to the nearest hundred?",
+            "options": ["100", "150", "200", "180"],
+            "correct_answer": "200",
+            "explanation": "When rounding to the nearest hundred, look at the tens place. Since 75 is 50 or more, round up to 200.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Rounding Numbers",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is 59 rounded to the nearest ten?",
+            "options": ["50", "55", "60", "70"],
+            "correct_answer": "60",
+            "explanation": "When rounding to the nearest ten, look at the ones place. Since 9 is 5 or more, round up to 60.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Rounding Numbers",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is 243 rounded to the nearest hundred?",
+            "options": ["200", "250", "240", "300"],
+            "correct_answer": "200",
+            "explanation": "When rounding to the nearest hundred, look at the tens place. Since 43 is less than 50, round down to 200.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Rounding Numbers",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is 68 rounded to the nearest ten?",
+            "options": ["60", "65", "70", "80"],
+            "correct_answer": "70",
+            "explanation": "When rounding to the nearest ten, look at the ones place. Since 8 is 5 or more, round up to 70.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Rounding Numbers",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is 92 rounded to the nearest ten?",
+            "options": ["80", "90", "100", "95"],
+            "correct_answer": "90",
+            "explanation": "When rounding to the nearest ten, look at the ones place. Since 2 is less than 5, round down to 90.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Rounding Numbers",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is 349 rounded to the nearest hundred?",
+            "options": ["300", "350", "400", "390"],
+            "correct_answer": "300",
+            "explanation": "When rounding to the nearest hundred, look at the tens place. Since 49 is less than 50, round down to 300.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Rounding Numbers",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is 587 rounded to the nearest hundred?",
+            "options": ["500", "550", "600", "580"],
+            "correct_answer": "600",
+            "explanation": "When rounding to the nearest hundred, look at the tens place. Since 87 is 50 or more, round up to 600.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Rounding Numbers",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is the Roman numeral for the number 5?",
+            "options": ["V", "X", "I", "L"],
+            "correct_answer": "V",
+            "explanation": "The Roman numeral for 5 is 'V'. It is one of the basic symbols used in Roman numerals.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Roman Numerals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What number does the Roman numeral 'X' represent?",
+            "options": ["5", "10", "15", "50"],
+            "correct_answer": "10",
+            "explanation": "The Roman numeral 'X' represents the number 10. It is commonly used in counting and dates.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Roman Numerals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is the Roman numeral for the number 3?",
+            "options": ["I", "III", "V", "X"],
+            "correct_answer": "III",
+            "explanation": "The Roman numeral for 3 is 'III', which is written by repeating the symbol 'I' three times.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Roman Numerals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What number does the Roman numeral 'L' represent?",
+            "options": ["10", "50", "100", "500"],
+            "correct_answer": "50",
+            "explanation": "The Roman numeral 'L' represents the number 50. It is one of the key symbols in Roman numerals.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Roman Numerals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is the Roman numeral for the number 7?",
+            "options": ["VI", "VII", "IX", "X"],
+            "correct_answer": "VII",
+            "explanation": "The Roman numeral for 7 is 'VII', which is written by combining 'V' (5) and 'II' (2).",
+            "syllabus_topic": "Mathematics - Number and Algebra - Roman Numerals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What number does the Roman numeral 'C' represent?",
+            "options": ["50", "100", "500", "1000"],
+            "correct_answer": "100",
+            "explanation": "The Roman numeral 'C' represents the number 100. It is used for larger numbers.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Roman Numerals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "How is the number 9 written in Roman numerals?",
+            "options": ["IX", "VI", "XI", "X"],
+            "correct_answer": "IX",
+            "explanation": "The number 9 is written as 'IX' in Roman numerals, where 'I' (1) is subtracted from 'X' (10).",
+            "syllabus_topic": "Mathematics - Number and Algebra - Roman Numerals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What number does the Roman numeral 'M' represent?",
+            "options": ["500", "1000", "50", "100"],
+            "correct_answer": "1000",
+            "explanation": "The Roman numeral 'M' represents the number 1000. It is the largest commonly used Roman numeral.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Roman Numerals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "How is the number 4 written in Roman numerals?",
+            "options": ["IV", "VI", "IX", "III"],
+            "correct_answer": "IV",
+            "explanation": "The number 4 is written as 'IV' in Roman numerals, where 'I' (1) is subtracted from 'V' (5).",
+            "syllabus_topic": "Mathematics - Number and Algebra - Roman Numerals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "How is the number 15 written in Roman numerals?",
+            "options": ["XV", "XVI", "VXV", "X"],
+            "correct_answer": "XV",
+            "explanation": "The number 15 is written as 'XV' in Roman numerals, combining 'X' (10) and 'V' (5).",
+            "syllabus_topic": "Mathematics - Number and Algebra - Roman Numerals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which word completes this sentence correctly?\nMy sister _______ enjoys reading books about animals.",
+            "options": ["always", "maybe", "would", "can"],
+            "correct_answer": "always",
+            "explanation": "The correct answer is 'always' because it fits the context of a habitual activity.",
+            "syllabus_topic": "English - Grammar - Word Choice",
+            "subject": "English"
+        },
+        {
+            "question": "Which words complete this sentence correctly?\nIn the morning, the birds ______ chirping in the trees.",
+            "options": ["is", "are", "was", "which"],
+            "correct_answer": "are",
+            "explanation": "The correct answer is 'are' because the subject 'birds' is plural, requiring the plural form of the verb.",
+            "syllabus_topic": "English - Grammar - Subject-Verb Agreement",
+            "subject": "English"
+        },
+        {
+            "question": "Which word completes this sentence correctly?\nThe dog wagged ______ tail happily when it saw its owner.",
+            "options": ["it", "its", "it's", "is"],
+            "correct_answer": "its",
+            "explanation": "The correct answer is 'its' because it shows possession. 'Its tail' means the tail belongs to the dog.",
+            "syllabus_topic": "English - Grammar - Possessive Pronouns",
+            "subject": "English"
+        },
+        {
+            "question": "Which sentence is punctuated correctly?",
+            "options": [
+                "Can you help me carry this?",
+                "Where is my backpack.",
+                "I like sunny days!",
+                "What a great idea?"
+            ],
+            "correct_answer": "Can you help me carry this?",
+            "explanation": "The correct answer is 'Can you help me carry this?' because it ends with a question mark for a question.",
+            "syllabus_topic": "English - Punctuation - Correct Use of Question Marks",
+            "subject": "English"
+        },
+        {
+            "question": "Which words complete this sentence correctly?\nIf the weather is nice tomorrow, ______ going to the park.",
+            "options": ["we're", "were", "we are", "where"],
+            "correct_answer": "we're",
+            "explanation": "The correct answer is 'we're', which is a contraction of 'we are'.",
+            "syllabus_topic": "English - Grammar - Contractions",
+            "subject": "English"
+        },
+        {
+            "question": "Which word completes this sentence correctly?\nThe baby slept _______ through the night.",
+            "options": ["quiet", "quietly", "quieter", "quietness"],
+            "correct_answer": "quietly",
+            "explanation": "The correct answer is 'quietly' because it describes how the baby slept, using an adverb.",
+            "syllabus_topic": "English - Grammar - Adverbs",
+            "subject": "English"
+        },
+        {
+            "question": "Which sentence is punctuated correctly?",
+            "options": [
+                "I love to swim.",
+                "Do you like pizza!",
+                "What a nice day.",
+                "Can I come with you!"
+            ],
+            "correct_answer": "I love to swim.",
+            "explanation": "The correct answer is 'I love to swim.' because it ends with a full stop for a statement.",
+            "syllabus_topic": "English - Punctuation - Full Stops",
+            "subject": "English"
+        },
+        {
+            "question": "Which word completes this sentence correctly?\nThe children ______ playing in the park all afternoon.",
+            "options": ["was", "are", "were", "is"],
+            "correct_answer": "were",
+            "explanation": "The correct answer is 'were' because the subject 'children' is plural and refers to a past action.",
+            "syllabus_topic": "English - Grammar - Subject-Verb Agreement",
+            "subject": "English"
+        },
+        {
+            "question": "Which sentence is punctuated correctly?",
+            "options": [
+                "Can you help me carry this.",
+                "Where are we going?",
+                "What a great game?",
+                "I love reading books?"
+            ],
+            "correct_answer": "Where are we going?",
+            "explanation": "The correct answer is 'Where are we going?' because it ends with a question mark for a question.",
+            "syllabus_topic": "English - Punctuation - Question Marks",
+            "subject": "English"
+        },
+        {
+            "question": "Which word completes this sentence correctly?\nThere is a big tree _______ lots of birds in its branches.",
+            "options": ["with", "which", "where", "is"],
+            "correct_answer": "with",
+            "explanation": "The correct answer is 'with' because it indicates that the birds are associated with the tree.",
+            "syllabus_topic": "English - Grammar - Word Choice",
+            "subject": "English"
         }
     ]
 }

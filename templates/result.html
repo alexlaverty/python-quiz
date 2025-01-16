@@ -27,7 +27,7 @@
         }
 
         .result {
-            margin: 20px 0;
+            margin: 10px 0;
             padding: 20px;
             border-radius: 5px;
         }
@@ -50,6 +50,7 @@
             background-color: #e9ecef;
             border-radius: 5px;
             border-left: 4px solid #6c757d;
+            font-size: 1.5em;
         }
 
         .explanation h3 {
@@ -78,14 +79,15 @@
     </style>
 </head>
 <body>
+    <div class="topic-info">
+        <!-- <p><strong>Subject:</strong> {{ subject }}</p> -->
+        <p><strong>Topic:</strong> {{ syllabus_topic }}</p>
+    </div>
     <div class="container">
         <div class="question">
             <h2>{{ question.question }}</h2>
         </div>
-        <div class="topic-info">
-            <p><strong>Subject:</strong> {{ subject }}</p>
-            <p><strong>Topic:</strong> {{ syllabus_topic }}</p>
-        </div>
+
         <div class="result {% if is_correct %}correct{% else %}incorrect{% endif %}">
             {% if is_correct %}
                 <h3>✅ Correct!</h3>

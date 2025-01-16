@@ -43,6 +43,12 @@
         .submit-btn:hover {
             background-color: #0056b3;
         }
+
+        .question-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -57,6 +63,9 @@
    
     <div class="question">
         <h2>{{ question.question }}</h2>
+        {% if question.image %}
+        <img src="{{ url_for('static', filename=question.image) }}" alt="Question Image" class="question-image">
+        {% endif %}
         <form action="{{ url_for('submit') }}" method="post">
             {% for option in question.options %}
             <div class="options">

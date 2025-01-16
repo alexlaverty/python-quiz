@@ -149,12 +149,34 @@ def dashboard():
     print("Subjects:", subjects)
     print("Subject Data:", subject_data)
 
+    # Create a pivot table with the subjects as columns and the dates as rows
+    subject_table_df = df.pivot_table(index='Date', columns='Subject', values='Correct?', aggfunc=lambda x: (x[x==True].count() / len(x)) * 100)
+    # Transpose the subject_percentage DataFrame
+    subject_table_df = subject_table_df.transpose()
+    # Create an HTML table from the pivot table DataFrame
+    subject_table = subject_table_df.to_html(float_format=lambda x: '{:.0f}%'.format(x))
+
+    # print("------------------------------------")
+    # # Set display options to show all columns and full width
+    # pd.set_option('display.max_columns', None)  # Show all columns
+    # pd.set_option('display.expand_frame_repr', False)  # Do not wrap DataFrame in the output
+    # print(df)
+    # print("------------------------------------")
+    
+    # Create a pivot table for syllabus_topic
+    syllabus_topic_table_df = df.pivot_table(index='Date', columns='Syllabus Topic', values='Correct?', aggfunc=lambda x: (x[x==True].count() / len(x)) * 100)
+    syllabus_topic_table_df = syllabus_topic_table_df.transpose()
+    # Create an HTML table from the pivot table DataFrame
+    syllabus_topic_table = syllabus_topic_table_df.to_html(float_format=lambda x: '{:.0f}%'.format(x))
+
     return render_template('dashboard.html', 
                             dates=dates,
                             correct_counts=correct_counts,
                             incorrect_counts=incorrect_counts,
                             subjects=subjects,
-                            subject_data=subject_data)
+                            subject_data=subject_data,
+                            subject_table=subject_table,
+                            syllabus_topic_table=syllabus_topic_table)
 
 
     

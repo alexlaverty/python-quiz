@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Results Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .dashboard-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .chart-container {
+            position: relative;
+            height: 500px;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .summary {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .summary-item {
+            text-align: center;
+        }
+        .summary-item h3 {
+            margin: 0;
+            color: #666;
+        }
+        .summary-item p {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .correct-text { color: #4ade80; }
+        .incorrect-text { color: #f87171; }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Quiz Results Dashboard</h1>
+        
+        <div class="summary">
+            <div class="summary-item">
+                <h3>Total Correct</h3>
+                <p class="correct-text" id="totalCorrect">0</p>
+            </div>
+            <div class="summary-item">
+                <h3>Total Incorrect</h3>
+                <p class="incorrect-text" id="totalIncorrect">0</p>
+            </div>
+            <div class="summary-item">
+                <h3>Success Rate</h3>
+                <p id="successRate">0%</p>
+            </div>
+        </div>
+        
+        <div class="chart-container">
+            <canvas id="resultsChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        // Get the data passed from Flask
+        const dates = {{ dates|tojson|safe }};
+        const correctCounts = {{ correct_counts|tojson|safe }};
+        const incorrectCounts = {{ incorrect_counts|tojson|safe }};
+
+        // Calculate summary statistics
+        const totalCorrect = correctCounts.reduce((a, b) => a + b, 0);
+        const totalIncorrect = incorrectCounts.reduce((a, b) => a + b, 0);
+        const successRate = totalCorrect + totalIncorrect > 0 
+            ? ((totalCorrect / (totalCorrect + totalIncorrect)) * 100).toFixed(1)
+            : 0;
+
+        // Update summary display
+        document.getElementById('totalCorrect').textContent = totalCorrect;
+        document.getElementById('totalIncorrect').textContent = totalIncorrect;
+        document.getElementById('successRate').textContent = `${successRate}%`;
+
+        // Create the chart
+        const ctx = document.getElementById('resultsChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: dates,
+                datasets: [
+                    {
+                        label: 'Correct',
+                        data: correctCounts,
+                        backgroundColor: '#4ade80',
+                        borderColor: '#4ade80',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Incorrect',
+                        data: incorrectCounts,
+                        backgroundColor: '#f87171',
+                        borderColor: '#f87171',
+                        borderWidth: 1
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        stacked: true,
+                        ticks: {
+                            maxRotation: 45,
+                            minRotation: 45
+                        }
+                    },
+                    y: {
+                        stacked: true,
+                        beginAtZero: true,
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: 'Daily Quiz Results'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            afterBody: function(context) {
+                                const dataIndex = context[0].dataIndex;
+                                const total = correctCounts[dataIndex] + incorrectCounts[dataIndex];
+                                const rate = total > 0 
+                                    ? ((correctCounts[dataIndex] / total) * 100).toFixed(1)
+                                    : 0;
+                                return `Success Rate: ${rate}%`;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

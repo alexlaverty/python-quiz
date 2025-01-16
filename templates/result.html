@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .question {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .result {
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .correct {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+
+        .incorrect {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+
+        .explanation {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            border-left: 4px solid #6c757d;
+        }
+
+        .explanation h3 {
+            color: #495057;
+            margin-top: 0;
+        }
+
+        .next-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .next-button:hover {
+            background-color: #0056b3;
+        }
+
+        .answer-info {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="question">
+            <h2>{{ question.question }}</h2>
+        </div>
+        <div class="topic-info">
+            <p><strong>Subject:</strong> {{ subject }}</p>
+            <p><strong>Topic:</strong> {{ syllabus_topic }}</p>
+        </div>
+        <div class="result {% if is_correct %}correct{% else %}incorrect{% endif %}">
+            {% if is_correct %}
+                <h3>✅ Correct!</h3>
+            {% else %}
+                <h3>❌ Incorrect</h3>
+                <div class="answer-info">
+                    <p>The correct answer was: <strong>{{ question.correct_answer }}</strong></p>
+                </div>
+            {% endif %}
+            
+            <div class="answer-info">
+                <p>Your answer: <strong>{{ user_answer }}</strong></p>
+            </div>
+        </div>
+        
+        <div class="explanation">
+            <h3>Explanation:</h3>
+            <p>{{ explanation }}</p>
+        </div>
+        
+        <a href="{{ url_for('next_question') }}" class="next-button">Next Question →</a>
+    </div>
+</body>
+</html>

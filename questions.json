@@ -1,0 +1,638 @@
+{
+    "questions": [
+        {
+            "question": "Which word correctly completes this sentence? 'The children _____ playing in the park.'",
+            "options": ["is", "are", "was", "be"],
+            "correct_answer": "are",
+            "explanation": "When talking about multiple people (children), we use 'are' as the verb. 'The children are playing' is correct because 'children' is plural.",
+            "syllabus_topic": "English - Grammar - Subject-Verb Agreement",
+            "subject": "English"
+        },
+        {
+            "question": "What is the sum of 45 + 28?",
+            "options": ["63", "73", "62", "72"],
+            "correct_answer": "73",
+            "explanation": "To add 45 + 28: First, add the ones (5 + 8 = 13), write down 3 and carry 1. Then add the tens (4 + 2 + 1 = 7). So 45 + 28 = 73.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Addition with Two-Digit Numbers",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these words is spelled correctly?",
+            "options": ["becase", "becouse", "because", "becuase"],
+            "correct_answer": "because",
+            "explanation": "The correct spelling is 'because'. It's a common word that follows the rule: be- (prefix) + cause.",
+            "syllabus_topic": "English - Spelling - Common Words",
+            "subject": "English"
+        },
+        {
+            "question": "If you have 4 groups of 6 apples, how many apples do you have in total?",
+            "options": ["10", "18", "24", "30"],
+            "correct_answer": "24",
+            "explanation": "This is a multiplication problem: 4 × 6 = 24. You can think of it as adding 6 four times: 6 + 6 + 6 + 6 = 24.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Multiplication Facts",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which punctuation mark is missing from this sentence? 'What time is dinner ready'",
+            "options": [".", "!", "?", ","],
+            "correct_answer": "?",
+            "explanation": "This is a question, so it needs a question mark (?) at the end. Questions asking for information always end with a question mark.",
+            "syllabus_topic": "English - Punctuation - Question Marks",
+            "subject": "English"
+        },
+        {
+            "question": "How many centimetres are in 1 metre?",
+            "options": ["10", "100", "1000", "50"],
+            "correct_answer": "100",
+            "explanation": "There are 100 centimetres in 1 metre. This is a basic metric measurement conversion that's important to remember.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Length Units",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these animal groups contains only mammals?",
+            "options": ["snake, lizard, cat", "dolphin, whale, kangaroo", "bird, bat, butterfly", "fish, seal, shark"],
+            "correct_answer": "dolphin, whale, kangaroo",
+            "explanation": "Mammals are animals that have hair/fur, are warm-blooded, and feed their young with milk. Dolphins, whales, and kangaroos are all mammals.",
+            "syllabus_topic": "Science - Living World - Animal Classification",
+            "subject": "Science"
+        },
+        {
+            "question": "What is half of 42?",
+            "options": ["21", "24", "20", "22"],
+            "correct_answer": "21",
+            "explanation": "To find half of 42, divide it by 2. 42 ÷ 2 = 21. You can check this by adding: 21 + 21 = 42.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Division and Fractions",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Choose the correct homophone: 'The children _____ their lunches.'",
+            "options": ["eight", "ate", "ait", "eat"],
+            "correct_answer": "ate",
+            "explanation": "'Ate' is the past tense of 'eat'. 'Eight' is a number, 'ait' is not a word, and 'eat' is present tense.",
+            "syllabus_topic": "English - Language - Homophones",
+            "subject": "English"
+        },
+        {
+            "question": "What number comes next in this pattern: 5, 10, 15, 20, ___?",
+            "options": ["23", "24", "25", "30"],
+            "correct_answer": "25",
+            "explanation": "This is a counting pattern that goes up by 5s. To find the next number, add 5 to 20: 20 + 5 = 25.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Number Patterns",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which sentence uses capital letters correctly?",
+            "options": [
+                "my friend sam lives in sydney.",
+                "My Friend Sam Lives In Sydney.",
+                "My friend Sam lives in Sydney.",
+                "my Friend sam Lives in sydney."
+            ],
+            "correct_answer": "My friend Sam lives in Sydney.",
+            "explanation": "Capital letters are used for the first word in a sentence, names of people (Sam), and names of places (Sydney).",
+            "syllabus_topic": "English - Grammar - Capitalization",
+            "subject": "English"
+        },
+        {
+            "question": "A rectangle has a length of 8 cm and a width of 4 cm. What is its perimeter?",
+            "options": ["20 cm", "24 cm", "28 cm", "32 cm"],
+            "correct_answer": "24 cm",
+            "explanation": "To find the perimeter, add all sides: length + width + length + width = 8 + 4 + 8 + 4 = 24 cm.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Perimeter",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of the following is an example of a noun?",
+            "options": ["run", "quickly", "cat", "happily"],
+            "correct_answer": "cat",
+            "explanation": "A noun is a person, place, thing, or idea. 'Cat' is a thing (an animal), which makes it a noun.",
+            "syllabus_topic": "English - Grammar - Nouns",
+            "subject": "English"
+        },
+        {
+            "question": "What is the result of 72 divided by 8?",
+            "options": ["8", "9", "10", "11"],
+            "correct_answer": "9",
+            "explanation": "72 ÷ 8 = 9. Division is splitting the number into equal groups, and 72 divided by 8 equals 9.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Division",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which word is a synonym for 'happy'?",
+            "options": ["sad", "angry", "joyful", "bored"],
+            "correct_answer": "joyful",
+            "explanation": "Synonyms are words that have the same or similar meanings. 'Joyful' means the same thing as 'happy'.",
+            "syllabus_topic": "English - Vocabulary - Synonyms",
+            "subject": "English"
+        },
+        {
+            "question": "Which of these is the correct spelling of the word for a large body of water?",
+            "options": ["ocean", "oesan", "ocian", "oscean"],
+            "correct_answer": "ocean",
+            "explanation": "The correct spelling is 'ocean'. An ocean is a large body of salt water.",
+            "syllabus_topic": "English - Spelling - Common Words",
+            "subject": "English"
+        },
+        {
+            "question": "What is the perimeter of a square with side lengths of 5 cm?",
+            "options": ["15 cm", "20 cm", "25 cm", "30 cm"],
+            "correct_answer": "20 cm",
+            "explanation": "The perimeter of a square is the sum of all four sides. Since each side is 5 cm, the perimeter is 5 + 5 + 5 + 5 = 20 cm.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Perimeter",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of the following is a verb?",
+            "options": ["dog", "run", "blue", "tree"],
+            "correct_answer": "run",
+            "explanation": "A verb is a word that describes an action or state of being. 'Run' is an action, so it is a verb.",
+            "syllabus_topic": "English - Grammar - Verbs",
+            "subject": "English"
+        },
+        {
+            "question": "If you have 3 groups of 8 marbles, how many marbles do you have in total?",
+            "options": ["24", "21", "25", "20"],
+            "correct_answer": "24",
+            "explanation": "This is a multiplication problem: 3 × 8 = 24. You can also add 8 three times: 8 + 8 + 8 = 24.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Multiplication",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which punctuation mark should end this sentence? 'I can't wait to go to the zoo_____'",
+            "options": [".", "!", "?", ","],
+            "correct_answer": "!",
+            "explanation": "The exclamation mark (!) is used to show excitement or strong feeling. In this case, the sentence expresses excitement.",
+            "syllabus_topic": "English - Punctuation - Exclamation Marks",
+            "subject": "English"
+        },
+        {
+            "question": "What is the correct spelling of the word for a very large animal that lives in the water?",
+            "options": ["whale", "wheale", "whail", "whael"],
+            "correct_answer": "whale",
+            "explanation": "The correct spelling is 'whale'. A whale is a large mammal that lives in the ocean.",
+            "syllabus_topic": "English - Spelling - Common Words",
+            "subject": "English"
+        },
+        {
+            "question": "Which of these words is a conjunction?",
+            "options": ["and", "walk", "blue", "happy"],
+            "correct_answer": "and",
+            "explanation": "A conjunction is a word that connects words or groups of words. 'And' is a conjunction.",
+            "syllabus_topic": "English - Grammar - Conjunctions",
+            "subject": "English"
+        },
+        {
+            "question": "What is the result of 15 + 29?",
+            "options": ["40", "42", "44", "45"],
+            "correct_answer": "44",
+            "explanation": "To add 15 + 29: First, add the ones (5 + 9 = 14), write down 4 and carry 1. Then add the tens (1 + 2 + 1 = 4). So, 15 + 29 = 44.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Addition",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is the missing number in the sequence: 7, 14, 21, ___?",
+            "options": ["25", "28", "30", "32"],
+            "correct_answer": "28",
+            "explanation": "The numbers are increasing by 7 each time. Add 7 to 21: 21 + 7 = 28.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Number Patterns",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of the following is a type of triangle?",
+            "options": ["circle", "rectangle", "equilateral", "hexagon"],
+            "correct_answer": "equilateral",
+            "explanation": "An equilateral triangle is a type of triangle where all three sides are the same length.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Shapes",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of the following is a proper noun?",
+            "options": ["city", "dog", "Australia", "car"],
+            "correct_answer": "Australia",
+            "explanation": "A proper noun is a specific name for a person, place, or thing. 'Australia' is the name of a country, so it is a proper noun.",
+            "syllabus_topic": "English - Grammar - Nouns",
+            "subject": "English"
+        },
+        {
+            "question": "What is the value of 36 ÷ 4?",
+            "options": ["8", "9", "10", "12"],
+            "correct_answer": "9",
+            "explanation": "36 ÷ 4 = 9. Division is splitting the number into equal groups, and 36 divided by 4 equals 9.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Division",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these is an example of a living thing?",
+            "options": ["rock", "tree", "book", "car"],
+            "correct_answer": "tree",
+            "explanation": "A tree is a living thing. It grows, reproduces, and carries out other life processes, unlike a rock or a book.",
+            "syllabus_topic": "Science - Living World - Living and Non-Living Things",
+            "subject": "Science"
+        },
+        {
+            "question": "Which of these is a non-living thing?",
+            "options": ["bird", "tree", "cloud", "chair"],
+            "correct_answer": "chair",
+            "explanation": "A chair is non-living. It does not grow, reproduce, or carry out life processes like a bird or tree.",
+            "syllabus_topic": "Science - Living World - Living and Non-Living Things",
+            "subject": "Science"
+        },
+        {
+            "question": "Which is an example of a subtraction problem?",
+            "options": ["10 + 5 = 15", "10 - 5 = 5", "10 ÷ 5 = 2", "10 × 5 = 50"],
+            "correct_answer": "10 - 5 = 5",
+            "explanation": "Subtraction involves taking one number away from another. 10 - 5 = 5.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Subtraction",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of the following is a right angle?",
+            "options": ["90 degrees", "45 degrees", "180 degrees", "60 degrees"],
+            "correct_answer": "90 degrees",
+            "explanation": "A right angle is exactly 90 degrees. It forms a perfect square corner.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Angles",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is the capital city of Australia?",
+            "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+            "correct_answer": "Canberra",
+            "explanation": "Canberra is the capital city of Australia.",
+            "syllabus_topic": "Geography - Australian Cities",
+            "subject": "Geography"
+        },
+        {
+            "question": "What is 10 + 15?",
+            "options": ["20", "25", "30", "35"],
+            "correct_answer": "25",
+            "explanation": "10 + 15 equals 25.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Addition",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these animals is native to Australia?",
+            "options": ["Kangaroo", "Elephant", "Lion", "Tiger"],
+            "correct_answer": "Kangaroo",
+            "explanation": "Kangaroos are native to Australia.",
+            "syllabus_topic": "Science - Australian Animals",
+            "subject": "Science"
+        },
+        {
+            "question": "What is the main ingredient in bread?",
+            "options": ["Flour", "Sugar", "Salt", "Butter"],
+            "correct_answer": "Flour",
+            "explanation": "Flour is the main ingredient in bread.",
+            "syllabus_topic": "Science - Food and Nutrition",
+            "subject": "Science"
+        },
+        {
+            "question": "Which of these is a verb?",
+            "options": ["Run", "Happy", "Blue", "Quickly"],
+            "correct_answer": "Run",
+            "explanation": "A verb is an action word. 'Run' is a verb.",
+            "syllabus_topic": "English - Grammar - Parts of Speech",
+            "subject": "English"
+        },
+        {
+            "question": "What is the largest planet in our solar system?",
+            "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+            "correct_answer": "Jupiter",
+            "explanation": "Jupiter is the largest planet in our solar system.",
+            "syllabus_topic": "Science - Space - Planets",
+            "subject": "Science"
+        },
+        {
+            "question": "What is the opposite of 'hot'?",
+            "options": ["Cold", "Warm", "Cool", "Freezing"],
+            "correct_answer": "Cold",
+            "explanation": "The opposite of 'hot' is 'cold'.",
+            "syllabus_topic": "English - Vocabulary - Antonyms",
+            "subject": "English"
+        },
+        {
+            "question": "What is 5 x 6?",
+            "options": ["30", "25", "35", "40"],
+            "correct_answer": "30",
+            "explanation": "5 multiplied by 6 equals 30.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Multiplication",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these is a fruit?",
+            "options": ["Carrot", "Apple", "Broccoli", "Potato"],
+            "correct_answer": "Apple",
+            "explanation": "An apple is a fruit.",
+            "syllabus_topic": "Science - Food and Nutrition",
+            "subject": "Science"
+        },
+        {
+            "question": "What is the past tense of 'run'?",
+            "options": ["Running", "Ran", "Runs", "Run"],
+            "correct_answer": "Ran",
+            "explanation": "The past tense of 'run' is 'ran'.",
+            "syllabus_topic": "English - Grammar - Tenses",
+            "subject": "English"
+        },
+        {
+            "question": "What is the boiling point of water?",
+            "options": ["50°C", "75°C", "100°C", "125°C"],
+            "correct_answer": "100°C",
+            "explanation": "Water boils at 100 degrees Celsius.",
+            "syllabus_topic": "Science - Physical Sciences - States of Matter",
+            "subject": "Science"
+        },
+        {
+            "question": "Which of these is a synonym for 'happy'?",
+            "options": ["Sad", "Joyful", "Angry", "Tired"],
+            "correct_answer": "Joyful",
+            "explanation": "A synonym for 'happy' is 'joyful'.",
+            "syllabus_topic": "English - Vocabulary - Synonyms",
+            "subject": "English"
+        },
+        {
+            "question": "What is 100 - 45?",
+            "options": ["55", "65", "75", "85"],
+            "correct_answer": "55",
+            "explanation": "100 minus 45 equals 55.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Subtraction",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these is a mammal?",
+            "options": ["Shark", "Frog", "Whale", "Eagle"],
+            "correct_answer": "Whale",
+            "explanation": "A whale is a mammal.",
+            "syllabus_topic": "Science - Biological Sciences - Animals",
+            "subject": "Science"
+        },
+        {
+            "question": "What is the plural form of 'child'?",
+            "options": ["Childs", "Children", "Childes", "Childrens"],
+            "correct_answer": "Children",
+            "explanation": "The plural form of 'child' is 'children'.",
+            "syllabus_topic": "English - Grammar - Plurals",
+            "subject": "English"
+        },
+        {
+            "question": "What is the chemical symbol for water?",
+            "options": ["O2", "H2O", "CO2", "HO"],
+            "correct_answer": "H2O",
+            "explanation": "The chemical symbol for water is H2O.",
+            "syllabus_topic": "Science - Chemistry - Elements and Compounds",
+            "subject": "Science"
+        },
+        {
+            "question": "Which of these is a continent?",
+            "options": ["Australia", "Pacific", "Arctic", "Indian"],
+            "correct_answer": "Australia",
+            "explanation": "Australia is a continent.",
+            "syllabus_topic": "Geography - Continents",
+            "subject": "Geography"
+        },
+        {
+            "question": "What is 7 x 8?",
+            "options": ["54", "56", "58", "60"],
+            "correct_answer": "56",
+            "explanation": "7 multiplied by 8 equals 56.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Multiplication",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these is a renewable energy source?",
+            "options": ["Coal", "Oil", "Solar", "Gas"],
+            "correct_answer": "Solar",
+            "explanation": "Solar energy is a renewable energy source.",
+            "syllabus_topic": "Science - Earth and Space Sciences - Renewable Energy",
+            "subject": "Science"
+        },
+        {
+            "question": "What is the main function of leaves on a plant?",
+            "options": ["Absorb water", "Support the plant", "Photosynthesis", "Store food"],
+            "correct_answer": "Photosynthesis",
+            "explanation": "The main function of leaves is to perform photosynthesis.",
+            "syllabus_topic": "Science - Biological Sciences - Plants",
+            "subject": "Science"
+        },
+        {
+            "question": "Which of the following words is a verb?",
+            "options": ["happy", "run", "cat", "blue"],
+            "correct_answer": "run",
+            "explanation": "A verb is an action word. 'Run' is a verb because it describes an action.",
+            "syllabus_topic": "English - Grammar - Verbs",
+            "subject": "English"
+        },
+        {
+            "question": "What is the result of 15 + 8?",
+            "options": ["20", "22", "23", "25"],
+            "correct_answer": "23",
+            "explanation": "Adding 15 + 8 gives a sum of 23.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Addition",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these words is a preposition?",
+            "options": ["on", "walk", "happily", "quickly"],
+            "correct_answer": "on",
+            "explanation": "A preposition shows a relationship between a noun and another word. 'On' is a preposition.",
+            "syllabus_topic": "English - Grammar - Prepositions",
+            "subject": "English"
+        },
+        {
+            "question": "What is the value of 8 × 6?",
+            "options": ["36", "42", "48", "56"],
+            "correct_answer": "48",
+            "explanation": "Multiplying 8 by 6 gives 48.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Multiplication",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of the following is a proper noun?",
+            "options": ["school", "dog", "Paris", "city"],
+            "correct_answer": "Paris",
+            "explanation": "A proper noun is the specific name of a place, person, or thing. 'Paris' is a proper noun.",
+            "syllabus_topic": "English - Grammar - Nouns",
+            "subject": "English"
+        },
+        {
+            "question": "What is half of 56?",
+            "options": ["28", "26", "30", "32"],
+            "correct_answer": "28",
+            "explanation": "Half of 56 is found by dividing 56 by 2. 56 ÷ 2 = 28.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Division and Fractions",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is the perimeter of a rectangle with length 6 cm and width 3 cm?",
+            "options": ["12 cm", "16 cm", "18 cm", "20 cm"],
+            "correct_answer": "18 cm",
+            "explanation": "Perimeter of a rectangle = 2 × (length + width). 2 × (6 + 3) = 2 × 9 = 18 cm.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Perimeter",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these words is an antonym of 'big'?",
+            "options": ["small", "huge", "tall", "long"],
+            "correct_answer": "small",
+            "explanation": "An antonym is a word with the opposite meaning. 'Small' is the opposite of 'big'.",
+            "syllabus_topic": "English - Vocabulary - Antonyms",
+            "subject": "English"
+        },
+        {
+            "question": "What is the missing number in the sequence: 4, 8, 12, ___?",
+            "options": ["14", "15", "16", "20"],
+            "correct_answer": "16",
+            "explanation": "The numbers are increasing by 4 each time. 12 + 4 = 16.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Number Patterns",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these animals is a mammal?",
+            "options": ["snake", "fish", "dolphin", "eagle"],
+            "correct_answer": "dolphin",
+            "explanation": "Mammals are warm-blooded animals that have fur or hair and feed their young with milk. Dolphins are mammals.",
+            "syllabus_topic": "Science - Living World - Animal Classification",
+            "subject": "Science"
+        },
+        {
+            "question": "Which word is a contraction for 'do not'?",
+            "options": ["dont", "do'nt", "don't", "doesn't"],
+            "correct_answer": "don't",
+            "explanation": "A contraction combines two words into one by using an apostrophe. 'Don't' is the contraction for 'do not'.",
+            "syllabus_topic": "English - Grammar - Contractions",
+            "subject": "English"
+        },
+        {
+            "question": "What is 72 ÷ 9?",
+            "options": ["7", "8", "9", "10"],
+            "correct_answer": "8",
+            "explanation": "72 ÷ 9 = 8.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Division",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these is a type of cloud?",
+            "options": ["stratus", "rock", "mountain", "forest"],
+            "correct_answer": "stratus",
+            "explanation": "Stratus clouds are low, flat clouds that often bring overcast skies or light rain.",
+            "syllabus_topic": "Science - Earth and Space - Weather",
+            "subject": "Science"
+        },
+        {
+            "question": "Which of these is the correct spelling for a large, round fruit?",
+            "options": ["watermellon", "watermelon", "watermellon", "watermellon"],
+            "correct_answer": "watermelon",
+            "explanation": "'Watermelon' is the correct spelling for a large fruit with green skin and sweet red flesh.",
+            "syllabus_topic": "English - Spelling - Common Words",
+            "subject": "English"
+        },
+        {
+            "question": "Which word is an adjective?",
+            "options": ["quickly", "happy", "run", "dog"],
+            "correct_answer": "happy",
+            "explanation": "An adjective describes a noun. 'Happy' describes how someone feels or acts.",
+            "syllabus_topic": "English - Grammar - Adjectives",
+            "subject": "English"
+        },
+        {
+            "question": "Which of these is an example of a living thing?",
+            "options": ["rock", "apple", "book", "chair"],
+            "correct_answer": "apple",
+            "explanation": "An apple is a fruit from a living tree, making it a living thing.",
+            "syllabus_topic": "Science - Living World - Living and Non-Living Things",
+            "subject": "Science"
+        },
+        {
+            "question": "What is the capital letter in the word 'Australia'?",
+            "options": ["A", "u", "s", "l"],
+            "correct_answer": "A",
+            "explanation": "The capital letter in the word 'Australia' is 'A'. Proper nouns, like countries, begin with a capital letter.",
+            "syllabus_topic": "English - Grammar - Capitalization",
+            "subject": "English"
+        },
+        {
+            "question": "Which number comes next in the sequence: 5, 10, 15, 20, ___?",
+            "options": ["21", "25", "30", "35"],
+            "correct_answer": "25",
+            "explanation": "The sequence increases by 5 each time. Adding 5 to 20 gives 25.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Number Patterns",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these animals can fly?",
+            "options": ["cat", "bird", "dog", "fish"],
+            "correct_answer": "bird",
+            "explanation": "A bird is an animal that can fly, unlike the other animals listed.",
+            "syllabus_topic": "Science - Living World - Animal Classification",
+            "subject": "Science"
+        },
+        {
+            "question": "What is the shape of a basketball?",
+            "options": ["square", "triangle", "circle", "cube"],
+            "correct_answer": "circle",
+            "explanation": "A basketball is a round object, which makes it a circle.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - Shapes",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is the value of 5 × 7?",
+            "options": ["30", "32", "35", "40"],
+            "correct_answer": "35",
+            "explanation": "Multiplying 5 by 7 equals 35.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Multiplication",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these is a season of the year?",
+            "options": ["Sunday", "January", "Autumn", "Tuesday"],
+            "correct_answer": "Autumn",
+            "explanation": "Autumn is one of the four seasons of the year, along with spring, summer, and winter.",
+            "syllabus_topic": "Science - Earth and Space - Seasons",
+            "subject": "Science"
+        },
+        {
+            "question": "What is the result of 56 ÷ 7?",
+            "options": ["6", "7", "8", "9"],
+            "correct_answer": "8",
+            "explanation": "56 ÷ 7 = 8.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Division",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of these is an example of a fruit?",
+            "options": ["carrot", "spinach", "apple", "lettuce"],
+            "correct_answer": "apple",
+            "explanation": "An apple is a fruit, while the others are vegetables.",
+            "syllabus_topic": "Science - Living World - Plants and Fruits",
+            "subject": "Science"
+        },
+        {
+            "question": "Which sentence is correct?",
+            "options": [
+                "The dog runs fastly.",
+                "The dog run fast.",
+                "The dog runs fast.",
+                "The dog fast runs."
+            ],
+            "correct_answer": "The dog runs fast.",
+            "explanation": "The sentence 'The dog runs fast.' is correct. 'Fast' is an adverb describing the verb 'runs'.",
+            "syllabus_topic": "English - Grammar - Adverbs",
+            "subject": "English"
+        },
+        {
+            "question": "Which of the following is a solid shape?",
+            "options": ["square", "rectangle", "cube", "circle"],
+            "correct_answer": "cube",
+            "explanation": "A cube is a 3D shape, while the others are flat (2D) shapes.",
+            "syllabus_topic": "Mathematics - Measurement and Geometry - 3D Shapes",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is 63 ÷ 9?",
+            "options": ["6", "7", "8", "9"],
+            "correct_answer": "7",
+            "explanation": "63 ÷ 9 = 7.",
+            "syllabus_topic": "Mathematics - Number and Algebra - Division",
+            "subject": "Mathematics"
+        }
+    ]
+}

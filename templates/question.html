@@ -1,0 +1,74 @@
+<!-- templates/question.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Question</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .question {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .options {
+            margin-bottom: 10px;
+        }
+
+        .submit-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="progress">
+        Question {{ question_number }} of {{ total_questions }}
+    </div>
+    <div class="topic-info">
+        <p><strong>Subject:</strong> {{ question.subject }}</p>
+        <p><strong>Topic:</strong> {{ question.syllabus_topic }}</p>
+    </div>
+   
+    <div class="question">
+        <h2>{{ question.question }}</h2>
+        <form action="{{ url_for('submit') }}" method="post">
+            {% for option in question.options %}
+            <div class="options">
+                <label>
+                    <input type="radio" name="answer" value="{{ option }}" required>
+                    {{ option }}
+                </label>
+            </div>
+            {% endfor %}
+            <button type="submit" class="submit-btn">Submit Answer</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

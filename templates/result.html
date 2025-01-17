@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Result</title>
@@ -76,7 +77,30 @@
             margin: 10px 0;
             font-size: 1.1em;
         }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .buttons {
+            text-align: right;
+        }
+
+        .next-button {
+            display: inline-block;
+            /* additional styles for the button */
+        }
     </style>
+    <script>
+        function readQuestion() {
+            const questionText = document.querySelector('.explanation p').textContent;
+            const speech = new SpeechSynthesisUtterance(questionText);
+            speech.lang = 'en-US';
+            speech.rate = 0.9;
+            speech.volume = 1;
+            window.speechSynthesis.speak(speech);
+        }
+    </script>
 </head>
 <body>
     <div class="topic-info">
@@ -89,6 +113,9 @@
         </div>
 
         <div class="result {% if is_correct %}correct{% else %}incorrect{% endif %}">
+            <div class="answer-info">
+                <p>Your answer: <strong>{{ user_answer }}</strong></p>
+            </div>
             {% if is_correct %}
                 <h3>✅ Correct!</h3>
             {% else %}
@@ -97,18 +124,19 @@
                     <p>The correct answer was: <strong>{{ question.correct_answer }}</strong></p>
                 </div>
             {% endif %}
-            
-            <div class="answer-info">
-                <p>Your answer: <strong>{{ user_answer }}</strong></p>
-            </div>
         </div>
         
         <div class="explanation">
-            <h3>Explanation:</h3>
+            <h3 style="display: inline;">Explanation:</h3>
+            <button type="button" onclick="readQuestion()" style="display: inline;">
+                <i class="fas fa-volume-up" aria-hidden="true"></i>
+                <span class="sr-only">Listen</span>
+            </button>        
             <p>{{ explanation }}</p>
         </div>
-        
-        <a href="{{ url_for('next_question') }}" class="next-button">Next Question →</a>
+        <div class="buttons">
+            <p><a href="{{ url_for('next_question') }}" class="next-button">Next</a></p>
+        </div>
     </div>
 </body>
 </html>

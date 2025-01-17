@@ -21,7 +21,7 @@
             "options": ["becase", "becouse", "because", "becuase"],
             "correct_answer": "because",
             "explanation": "The correct spelling is 'because'. It's a common word that follows the rule: be- (prefix) + cause.",
-            "syllabus_topic": "English - Spelling - Common Words",
+            "syllabus_topic": "English - Spelling",
             "subject": "English"
         },
         {
@@ -130,7 +130,7 @@
             "options": ["ocean", "oesan", "ocian", "oscean"],
             "correct_answer": "ocean",
             "explanation": "The correct spelling is 'ocean'. An ocean is a large body of salt water.",
-            "syllabus_topic": "English - Spelling - Common Words",
+            "syllabus_topic": "English - Spelling",
             "subject": "English"
         },
         {
@@ -170,7 +170,7 @@
             "options": ["whale", "wheale", "whail", "whael"],
             "correct_answer": "whale",
             "explanation": "The correct spelling is 'whale'. A whale is a large mammal that lives in the ocean.",
-            "syllabus_topic": "English - Spelling - Common Words",
+            "syllabus_topic": "English - Spelling",
             "subject": "English"
         },
         {
@@ -522,7 +522,7 @@
             "options": ["watermellon", "watermelon", "watermellon", "watermellon"],
             "correct_answer": "watermelon",
             "explanation": "'Watermelon' is the correct spelling for a large fruit with green skin and sweet red flesh.",
-            "syllabus_topic": "English - Spelling - Common Words",
+            "syllabus_topic": "English - Spelling",
             "subject": "English"
         },
         {
@@ -655,7 +655,7 @@
             "options": ["becase", "becouse", "because", "becuase"],
             "correct_answer": "because",
             "explanation": "The correct spelling is 'because'. It's a common word that follows the rule: be- (prefix) + cause.",
-            "syllabus_topic": "English - Spelling - Common Words",
+            "syllabus_topic": "English - Spelling",
             "subject": "English"
         },
         {
@@ -1127,6 +1127,157 @@
             "correct_answer": "with",
             "explanation": "The correct answer is 'with' because it indicates that the birds are associated with the tree.",
             "syllabus_topic": "English - Grammar - Word Choice",
+            "subject": "English"
+        },
+        {
+            "question": "Which of the following shapes has opposite sides that are both parallel and equal in length?",
+            "options": ["Trapezium", "Parallelogram", "Rhombus", "Kite"],
+            "correct_answer": "Parallelogram",
+            "explanation": "A parallelogram is defined as a quadrilateral where opposite sides are both parallel and equal in length.",
+            "syllabus_topic": "Mathematics - Geometry - Properties of Quadrilaterals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is the unique property of a rhombus that distinguishes it from a square?",
+            "options": [
+                "All sides are equal, but angles are not 90 degrees",
+                "Opposite sides are parallel",
+                "Diagonals are equal in length",
+                "Only one pair of sides is parallel"
+            ],
+            "correct_answer": "All sides are equal, but angles are not 90 degrees",
+            "explanation": "A rhombus has all sides equal, but unlike a square, its angles are not necessarily 90 degrees.",
+            "syllabus_topic": "Mathematics - Geometry - Properties of Rhombus",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which shape is a quadrilateral but does not always have opposite sides parallel?",
+            "options": ["Kite", "Rectangle", "Parallelogram", "Square"],
+            "correct_answer": "Kite",
+            "explanation": "A kite is a quadrilateral where two pairs of adjacent sides are equal, but opposite sides are not parallel.",
+            "syllabus_topic": "Mathematics - Geometry - Properties of Quadrilaterals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which of the following is true for all rectangles?",
+            "options": [
+                "All sides are equal",
+                "Diagonals bisect each other and are equal in length",
+                "Only opposite sides are equal",
+                "Angles are not equal"
+            ],
+            "correct_answer": "Diagonals bisect each other and are equal in length",
+            "explanation": "In a rectangle, the diagonals are always equal in length and bisect each other at 90 degrees.",
+            "syllabus_topic": "Mathematics - Geometry - Properties of Rectangles",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "What is a common property of all quadrilaterals?",
+            "options": [
+                "They have exactly one pair of parallel sides",
+                "They have four sides and the sum of interior angles is 360 degrees",
+                "All angles are 90 degrees",
+                "Opposite sides are always equal"
+            ],
+            "correct_answer": "They have four sides and the sum of interior angles is 360 degrees",
+            "explanation": "All quadrilaterals, regardless of type, have four sides, and the sum of their interior angles is always 360 degrees.",
+            "syllabus_topic": "Mathematics - Geometry - Quadrilaterals",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which quadrilateral has exactly one pair of parallel sides?",
+            "options": ["Trapezium", "Square", "Parallelogram", "Rhombus"],
+            "correct_answer": "Trapezium",
+            "explanation": "A trapezium (or trapezoid) is a quadrilateral with exactly one pair of parallel sides.",
+            "syllabus_topic": "Mathematics - Geometry - Properties of Trapezium",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "If a quadrilateral has diagonals that bisect each other at right angles, which shape could it be?",
+            "options": ["Rectangle", "Rhombus", "Trapezium", "Kite"],
+            "correct_answer": "Rhombus",
+            "explanation": "In a rhombus, the diagonals bisect each other at right angles, which is a key distinguishing property.",
+            "syllabus_topic": "Mathematics - Geometry - Properties of Rhombus",
+            "subject": "Mathematics"
+        },
+        {
+            "question": "Which is the correct spelling of the word that means 'a place where books are kept'?",
+            "options": ["Libary", "Library", "Liberry", "Librery"],
+            "correct_answer": "Library",
+            "explanation": "The correct spelling is 'Library,' which refers to a place where books are stored and can be borrowed.",
+            "syllabus_topic": "English - Spelling",
+            "subject": "English"
+        },
+        {
+            "question": "What is the correct spelling of the word that describes 'a large animal with a long trunk'?",
+            "options": ["Elefant", "Elaphant", "Elephant", "Elyphant"],
+            "correct_answer": "Elephant",
+            "explanation": "The correct spelling is 'Elephant,' which is the large mammal known for its trunk.",
+            "syllabus_topic": "English - Spelling",
+            "subject": "English"
+        },
+        {
+            "question": "How do you spell the word that means 'a person who teaches'?",
+            "options": ["Techer", "Teacher", "Teachur", "Teecher"],
+            "correct_answer": "Teacher",
+            "explanation": "The correct spelling is 'Teacher,' which refers to someone who helps others learn.",
+            "syllabus_topic": "English - Spelling",
+            "subject": "English"
+        },
+        {
+            "question": "Choose the correct spelling of the word that means 'the opposite of remember'.",
+            "options": ["Forget", "Furget", "Forgett", "Forgeet"],
+            "correct_answer": "Forget",
+            "explanation": "The correct spelling is 'Forget,' which means to fail to remember something.",
+            "syllabus_topic": "English - Spelling",
+            "subject": "English"
+        },
+        {
+            "question": "Which spelling is correct for the word that means 'a fruit that is red and round'?",
+            "options": ["Appel", "Apple", "Applle", "Apel"],
+            "correct_answer": "Apple",
+            "explanation": "The correct spelling is 'Apple,' a common fruit that is red, green, or yellow.",
+            "syllabus_topic": "English - Spelling",
+            "subject": "English"
+        },
+        {
+            "question": "How do you spell the word for 'a day of the week that comes after Monday'?",
+            "options": ["Tewsday", "Tusday", "Tuesday", "Tuseday"],
+            "correct_answer": "Tuesday",
+            "explanation": "The correct spelling is 'Tuesday,' which is the day of the week after Monday.",
+            "syllabus_topic": "English - Spelling",
+            "subject": "English"
+        },
+        {
+            "question": "What is the correct spelling of the word that means 'a small insect with wings that makes honey'?",
+            "options": ["Bee", "Bea", "Bie", "Bei"],
+            "correct_answer": "Bee",
+            "explanation": "The correct spelling is 'Bee,' which is an insect known for making honey.",
+            "syllabus_topic": "English - Spelling",
+            "subject": "English"
+        },
+        {
+            "question": "Which is the correct spelling of the word for 'a place where students learn'?",
+            "options": ["Skool", "School", "Scholl", "Skoole"],
+            "correct_answer": "School",
+            "explanation": "The correct spelling is 'School,' which refers to a place where students go to learn.",
+            "syllabus_topic": "English - Spelling",
+            "subject": "English"
+        },
+        {
+            "question": "Choose the correct spelling of the word that means 'something you eat for breakfast'.",
+            "options": ["Cereal", "Cereel", "Seral", "Seereal"],
+            "correct_answer": "Cereal",
+            "explanation": "The correct spelling is 'Cereal,' which refers to a common breakfast food made from grains.",
+            "syllabus_topic": "English - Spelling",
+            "subject": "English"
+        },
+        {
+            "question": "What is the correct spelling of the word that means 'to make something neat and tidy'?",
+            "options": ["Clene", "Cleen", "Clean", "Cleean"],
+            "correct_answer": "Clean",
+            "explanation": "The correct spelling is 'Clean,' which means to make something neat or free of dirt.",
+            "syllabus_topic": "English - Spelling",
             "subject": "English"
         }
     ]
